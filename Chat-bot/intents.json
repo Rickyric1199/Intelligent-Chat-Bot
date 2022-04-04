@@ -1,0 +1,32 @@
+{"intents":  [
+	{"tag": "greetings",
+	"patterns": ["hello", "hey", "hi", "good day", "greetings", "what's up?", "how is it going?"],
+	"responses":["Hello!","Hey!", "What can I do for you?"]
+	},
+	{"tag": "goodbye",
+	"patterns": ["cya", "See you Later", "goodbye", "I am Leaving", "Have a good day", "bye", "cao", "see ya"],
+	"responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"]
+	},
+	{"tag": "age",
+	"patterns": ["how old", "how old is florian", "what is your age", "how old are you", "age?"],
+	"responses": ["My owner Ric is 21 years old!", "21 years!"]
+	},
+	{"tag": "name",
+	"patterns": ["What is your name", "What should I call you", "What's your name?","who are you?","can you tell me your name?"],
+	"responses": ["You can call me Jasai", "I'm Jasai", "I'm Jasai the assistant of Ric"]
+	},
+	{"tag": "shop",
+	"patterns": ["Id like to buy something", "order this for me", "What do you recommend?"],
+	"responses": ["I am not ablt to order things for you yet"]
+	},
+	{
+		"tag": "hours",
+		"patterns": [ "what time is it?", "What's the time?'", "time?" ],
+		"responses": [ "I am current not able to do that, check it yourself" ]
+	},
+	{
+		"tag": "report",
+		"patterns": [ "Status", "status report", "status update" ],
+		"responses": ["Checking Status...."]
+	}
+]}
